@@ -3,6 +3,6 @@ node{
     git 'https://github.com/akshaymahajan855/my-new-project.git'
     }
     stage('Compile-Package'){
-    sh 'mvn clean verify'
+    bat 'mvn clean verify'
     }
 }
